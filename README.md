@@ -7,19 +7,24 @@
 - 주요 과정은 데이터 수집, EDA, 전처리, 변수 생성, 시계열 모델링, 성능 평가로 구성됩니다.
 
 ## 🧱 프로젝트 구조
-├── kofic_data/ # 원본 영화 데이터
-├── processed_data/ # 전처리된 CSV 파일들
-├── trailer_data/ # 예고편 관련 크롤링 데이터
-├── [BA]_모델_구축.ipynb # 최종 모델 구축 및 예측 notebook
-├── EDA.ipynb # 탐색적 데이터 분석 notebook
-├── SARIMAX_model.ipynb # SARIMAX 모델링 notebook
-├── 가설 검정 + 파생 변수.ipynb # 변수 생성 및 통계 검정
-├── 예고편_조회수_크롤링.ipynb # 유튜브 예고편 조회수 크롤링
-├── 데이터_크롤링_KOFIC_3주차.ipynb # KOFIC API 데이터 수집
-├── kofic_api_extract.py # KOFIC API 호출 파이썬 스크립트
-├── movie_finished_toFDA_V9.csv # 최종 사용된 데이터
-├── 전체_데이터.xlsx # 전체 통합 엑셀 데이터
-└── README.md # 프로젝트 소개 파일
+
+```
+movie-audience-forecasting/
+├── kofic_data/                        # 원본 영화 데이터
+├── processed_data/                    # 전처리된 CSV 파일들
+├── trailer_data/                      # 예고편 관련 크롤링 데이터
+├── [BA]_모델_구축.ipynb               # 최종 모델 구축 및 예측 notebook
+├── EDA.ipynb                          # 탐색적 데이터 분석 notebook
+├── SARIMAX_model.ipynb               # SARIMAX 모델링 notebook
+├── 가설 검정 + 파생 변수.ipynb        # 변수 생성 및 통계 검정
+├── 예고편_조회수_크롤링.ipynb         # 유튜브 예고편 조회수 크롤링
+├── 데이터_크롤링_KOFIC_3주차.ipynb    # KOFIC API 데이터 수집
+├── kofic_api_extract.py              # KOFIC API 호출 파이썬 스크립트
+├── movie_finished_toFDA_V9.csv       # 최종 사용된 데이터
+├── 전체_데이터.xlsx                   # 전체 통합 엑셀 데이터
+└── README.md                          # 프로젝트 소개 파일
+```
+
 
 
 ## 🔧 사용 기술
